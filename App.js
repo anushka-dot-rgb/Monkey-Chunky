@@ -16,7 +16,7 @@ export default class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      text: '',
+      text: ''
       chunks: [],
       phonicSounds: [],
     };
@@ -33,7 +33,7 @@ export default class App extends React.Component {
         />
 
         <Image
-          style={styles.imageIcon}
+          style={styles.imageIc}
           source={{
             uri:
               'https://www.shareicon.net/data/128x128/2015/08/06/80805_face_512x512.png',
@@ -41,7 +41,7 @@ export default class App extends React.Component {
         />
 
         <TextInput
-          style={styles.inputBox}
+          style={styles.inputBx}
           onChangeText={text => {
             this.setState({ text: text });
           }}
